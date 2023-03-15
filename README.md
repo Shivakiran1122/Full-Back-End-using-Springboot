@@ -76,8 +76,8 @@ when once client request to the server the required data we get as reponse. clie
 
 **Client Requirement:**<br/>
 Client wants blogging Application where he/she can write blogs and articles.<br/>
-user can comment on the blogs/articles.
-we have to build simple Blogging Application:<br/>
+user can comment on the blogs/articles.<br/>
+we have to build simple Blogging Application:
 1. User should create update, delete and list posts.<br/>
 2. User should  add, update delete comments on posts.<br/>
 3. Categories the posts according to Categories.<br/>
