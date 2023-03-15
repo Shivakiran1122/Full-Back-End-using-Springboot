@@ -53,14 +53,12 @@ when once client request to the server the required data we get as reponse. clie
 **6.Code on Demand (Optional)** - when client makes a request server can  send code on demand and execute the code on the Client.<br/>
 
 **REST Concepts:**<br/>
-
 **1. Resource** - Anything that we want to expose to outside world through our Application (Entities).<br/>
 **2. Sub-Resource**- Resource which is dependent on the main resource. Example - Studnet(Resource)-> Laptop(Sub Resource).<br/>
   Method ---http://localhost:8282/resource/{id}/subresource<br/>
   GET ----- http://localhost:8282/students/12/laptops/   Return the list of laptops of student 12<br/>
   GET ----- http://localhost:8282/students/12/laptops/63 Return the laptop of id 63 of student 12<br/>
   Sub resource can not exist without resources.<br/>
-  
 **3. URI(Uniform Resource Identifier)**- used to identify a resource on the server.<br/>
     GET  ------ http://localhost:8282/students/ ----------------- Returns the list of Students.<br/>
     GET  ------ http://localhost:8282/students/12 --------------- Returns the student of id 12.<br/>
@@ -102,6 +100,13 @@ we have to build simple Blogging Application:<br/>
 2.CATEGORY<br/>
 3.POST<br/>
 4.COMMENTS<br/>
+
+**Best Architecture while using Spring Boot for Backend:**<br/>
+**Postman(Client)----->(Request)--------> Controllers(API Layers)<-------->Services(Business Logic)<--------->Repositories(DAO/persistant Layers)<------->Database<br/>
+  <-----(Response)<---Controllers(API Layers)     <------------------------------------ (Springboot App)-------------------------------------------------------><br/>**
+
+     
+     
 
 
 
