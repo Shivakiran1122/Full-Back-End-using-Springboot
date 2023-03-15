@@ -15,6 +15,17 @@ Building real time RestAPI'S for Blogging Application using Springboot, Spring S
 1.How to add profiles for different environments.<br/>
 2.How to deploy spring boot in  cloud Environment (AWS in this case).<br/>
 
+**Techonologies and tools used:**<br/>
+1.Java 8+.<br/>
+2.Maven.<br/>
+3.Intellij (Java IDE).<br/>
+4.Apache Tomcat.<br/>
+5.Spring core, Spring Security (jwt) , Spring data JPA(Hibernate).<br/>
+6.MYSQL Database.<br/>
+7.Postman Rest Client (API Testing).<br/>
+8.Swagger (API Documentation).<br/>
+9.AWS EC2 (Deploy the Application).<br/>
+
 **Technologies to be familar for project Implementation:**<br/>
 
 1.Core Java (OOPS,packages, exception, lambda, stream API etc).<br/>
@@ -66,13 +77,31 @@ when once client request to the server the required data we get as reponse. clie
 5.500 nternal Server Error-----------------------------------Error occurred on server and request can not fulfilled.<br/>
 
 **Client Requirement:**<br/>
-Client wants blogging Application where he/she can write blogs and articles.
-user can comment on the blogs/articles.
-we have to build simple Blogging Application:
-1. User should create update, delete and list posts.
-2. User should  add, update delete comments on posts.
-3. Categories the posts according to Categories.
-4. New User should able to register on our application
+Client wants blogging Application where he/she can write blogs and articles.<br/>
+user can comment on the blogs/articles.<br/>
+we have to build simple Blogging Application:<br/>
+1. User should create update, delete and list posts.<br/>
+2. User should  add, update delete comments on posts.<br/>
+3. Categories the posts according to Categories.<br/>
+4. New User should able to register on our application.<br/>
+5. User should able to login to our application.<br/>
+6. Post Include one picture too.<br/>
+
+**Client Requirement in technical terms:**<br/>
+1.proper Login and Register API.<br/>
+2.Posts API includes Pagination and Sorting.<br/>
+3.Proper User Input Handling.<br/>
+4.Proper exception Handling.<br/>
+5.Role based authentication-role based security with API'S.<br/>
+6.JWT(JSON Web Token) based authentication.<br/>
+7.JWT all rest api's so that consumer can easily understand.<br/>
+8.Deploy the backend application on any cloud platform.<br/>
+
+**Resources for Blogging Application :** <br/>
+1.USER<br/>
+2.CATEGORY<br/>
+3.POST<br/>
+4.COMMENTS<br/>
 
 
 
