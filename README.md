@@ -1,4 +1,4 @@
-# Full-Back-End-using-Springboot <br/>
+# Full-Back-End-Using-SpringBoot <br/>
 Building real time REST API'S for blogging  Application<br/>
 
 **Overview:**<br/>
