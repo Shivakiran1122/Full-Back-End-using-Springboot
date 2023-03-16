@@ -72,7 +72,7 @@ when once client request to the server the required data we get as reponse. clie
 2.201 Created ----------------------------------------------Request is Successful and new resource is created.<br/>
 3.401 Unauthorized-------------------------------------------Authentication is required for resource.<br/>
 4.404 Not Found----------------------------------------------Resource Not Found.<br/>
-5.500 nternal Server Error-----------------------------------Error occurred on server and request can not fulfilled.<br/>
+5.500 Internal Server Error-----------------------------------Error occurred on server and request can not fulfilled.<br/>
 
 **Client Requirement:**<br/>
 Client wants blogging Application where he/she can write blogs and articles.<br/>
