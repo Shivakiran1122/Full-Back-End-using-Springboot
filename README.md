@@ -105,7 +105,12 @@ we have to build simple Blogging Application:<br/>
 **Postman(Client)----->(Request)--------> Controllers(API Layers)<-------->Services(Business Logic)<--------->Repositories(DAO/persistant Layers)<------->Database<br/>
   <-----(Response)<---Controllers(API Layers)     <------------------------------------ (Springboot App)-------------------------------------------------------><br/>**
 
-     
+**Libraries used in project**:<br/>
+**Model Mapper:**<br/>
+1.It is used to map 2 objects or models.<br/>
+2.Transfer one  model object data  in to other model object.<br/>
+
+
      
 
 
