@@ -57,7 +57,7 @@ we have to build simple Blogging Application:<br/>
 2.CATEGORY<br/>
 3.POST<br/>
 4.COMMENTS<br/>
-**-----------------------------------------------------------------------------------------------------------------------------------------------**
+**-----------------------------------------------------------------------------------------------------------------------------------------------**<br/>
 **REST API'S:**<br/>
 REST stands for Representational State Transfer.<br/>
 Representational- Format: json,xmml<br/>
