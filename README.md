@@ -11,9 +11,29 @@ Building real time RestAPI'S for Blogging Application using Springboot, Spring S
 6.Swagger Library (Documentation  for Rest API'S).<br/>
 
 **OutComes of the Project:**<br/>
-
 1.How to add profiles for different environments.<br/>
 2.How to deploy spring boot in  cloud Environment (AWS in this case).<br/>
+
+**Client Requirement:**<br/>
+Client wants blogging Application where he/she can write blogs and articles.<br/>
+user can comment on the blogs/articles.<br/>
+we have to build simple Blogging Application:<br/>
+1.User should create update, delete and list posts.<br/>
+2.User should  add, update delete comments on posts.<br/>
+3.Categories the posts according to Categories.<br/>
+4.New User should able to register on our application.<br/>
+5.User should able to login to our application.<br/>
+6.Post Include one picture too.<br/>
+
+**Client Requirement in technical terms:**<br/>
+1.proper Login and Register API.<br/>
+2.Posts API includes Pagination and Sorting.<br/>
+3.Proper User Input Handling.<br/>
+4.Proper exception Handling.<br/>
+5.Role based authentication-role based security with API'S.<br/>
+6.JWT(JSON Web Token) based authentication.<br/>
+7.JWT all rest api's so that consumer can easily understand.<br/>
+8.Deploy the backend application on any cloud platform.<br/>
 
 **Techonologies and tools used:**<br/>
 1.Java 8+.<br/>
@@ -27,22 +47,24 @@ Building real time RestAPI'S for Blogging Application using Springboot, Spring S
 9.AWS EC2 (Deploy the Application).<br/>
 
 **Technologies to be familar for project Implementation:**<br/>
-
 1.Core Java (OOPS,packages, exception, lambda, stream API etc).<br/>
 2.Basics of Spring Framework(Spring Core (Dependency Injection, Inversion of Control), JPA and MVC).<br/>
 3.Spring Boot Basics.<br/>
 4.Basics of MYSQL Database.<br/>
 5.Intellij IDEA (IDE).<br/>
-
+**Resources for Blogging Application :** <br/>
+1.USER<br/>
+2.CATEGORY<br/>
+3.POST<br/>
+4.COMMENTS<br/>
+**------------------------------------------------------------------------------------------------------------------------------------------------------------------**
 **REST API'S:**<br/>
 REST stands for Representational State Transfer.<br/>
 Representational- Format: json,xmml<br/>
 State- Data<br/>
 Trnasfer-Transfer of data between parties (here it is Client And Server)<br/>
-
 **Defination:**<br/>
 REST API's: Design Architecture style for the web where transfer of data between Client and Server  is in specified format like Json or XML.<br/>
-
 **REST Guidelines:**<br/>
 **1.Client Server Architecture** - Client and server must be independent entities.Code for front end and back end are different.<br/>
 **2.Stateless** - We will not store any data on the server side. Here client should store the information.When client calls an API Server should just process the data send back the response.<br/>
@@ -74,33 +96,6 @@ when once client request to the server the required data we get as reponse. clie
 4.404 Not Found----------------------------------------------Resource Not Found.<br/>
 5.500 Internal Server Error-----------------------------------Error occurred on server and request can not fulfilled.<br/>
 
-**Client Requirement:**<br/>
-Client wants blogging Application where he/she can write blogs and articles.<br/>
-user can comment on the blogs/articles.<br/>
-we have to build simple Blogging Application:<br/>
-1.User should create update, delete and list posts.<br/>
-2.User should  add, update delete comments on posts.<br/>
-3.Categories the posts according to Categories.<br/>
-4.New User should able to register on our application.<br/>
-5.User should able to login to our application.<br/>
-6.Post Include one picture too.<br/>
-
-**Client Requirement in technical terms:**<br/>
-1.proper Login and Register API.<br/>
-2.Posts API includes Pagination and Sorting.<br/>
-3.Proper User Input Handling.<br/>
-4.Proper exception Handling.<br/>
-5.Role based authentication-role based security with API'S.<br/>
-6.JWT(JSON Web Token) based authentication.<br/>
-7.JWT all rest api's so that consumer can easily understand.<br/>
-8.Deploy the backend application on any cloud platform.<br/>
-
-**Resources for Blogging Application :** <br/>
-1.USER<br/>
-2.CATEGORY<br/>
-3.POST<br/>
-4.COMMENTS<br/>
-
 **Best Architecture while using Spring Boot for Backend:**<br/>
 **Postman(Client)----->(Request)--------> Controllers(API Layers)<-------->Services(Business Logic)<--------->Repositories(DAO/persistant Layers)<------->Database<br/>
   <-----(Response)<---Controllers(API Layers)     <------------------------------------ (Springboot App)-------------------------------------------------------><br/>**
@@ -109,8 +104,20 @@ we have to build simple Blogging Application:<br/>
 **Model Mapper:**<br/>
 1.It is used to map 2 objects or models.<br/>
 2.Transfer one  model object data  in to other model object.<br/>
-3.
 
+**Java Bean Validation**:<br/>
+**Basics of Validation:**<br/>
+1.Java bean is validated with JSR 380 known as Bean Validation 2.0.<br/>'
+2.JSR 380 is specification for the Java API for bean  validation.Properties of bean meet the specific criteria.<br/>'
+3.For Validation different annotations are used.<br/>
+4.Hibernate Validator is a implementation of validation API.<br/>
+Some of the most common validation annotations are:<br/>
+**@NotNull:** to say that a field must not be null.<br/>
+**@NotEmpty:** to say that a list field must not empty.<br/>
+**@NotBlank:** to say that a string field must not be the empty string (i.e. it must have at least one character).<br/>
+**@Min and @Max:** to say that a numerical field is only valid when it’s value is above or below a certain value.<br/>
+**@Pattern**: to say that a string field is only valid when it matches a certain regular expression.<br/>
+**@Email:** to say that a string field must be a valid email address.<br/>
 
      
 
