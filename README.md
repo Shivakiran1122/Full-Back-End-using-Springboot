@@ -109,6 +109,7 @@ we have to build simple Blogging Application:<br/>
 **Model Mapper:**<br/>
 1.It is used to map 2 objects or models.<br/>
 2.Transfer one  model object data  in to other model object.<br/>
+3.
 
 
      
