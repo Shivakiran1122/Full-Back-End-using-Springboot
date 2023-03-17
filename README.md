@@ -119,6 +119,7 @@ Some of the most common validation annotations are:<br/>
 **@Pattern**: to say that a string field is only valid when it matches a certain regular expression.<br/>
 **@Email:** to say that a string field must be a valid email address.<br/>
 
+ basuc validation for  the category class in  the repository specified in the design.
      
 
 
