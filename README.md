@@ -145,10 +145,10 @@ Some of the most common validation annotations are:<br/>
  get user from token<br/>
  load user associated with token<br/> 
  set spring security<br/> 
- 5.create JwtAuthResponse
- 6.configure JWT in spring security config
- 7.create login api to return token
- 8.test the application
+ 5.create JwtAuthResponse<br/> 
+ 6.configure JWT in spring security config<br/> 
+ 7.create login api to return token<br/> 
+ 8.test the application<br/> 
   
  
  
