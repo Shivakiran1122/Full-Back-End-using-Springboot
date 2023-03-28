@@ -130,9 +130,26 @@ Some of the most common validation annotations are:<br/>
  
  
  JWT architecture:
- 1. header (Algo+ Type)<br/> 
+ 1.header (Algo+ Type)<br/> 
  2.payload( Information about claims)(data)<br/> 
  3.Signature(encoded header + encoded payload + key)<br/> 
+ 
+ 
+ Steps to implenent JWT:
+ 1.Add dependency(io.jsonwebtoken)<br/> 
+ 2.create JWTAuthenticationEntryPoint implements AuthenticationEntryPoint.<br/> 
+ 3.create JWTTokenHelper<br/> 
+ 4.JwtAuthenticationFilter extends OnceRequestFilter<br/> 
+ Get jwt token from request<br/> 
+ validate token<br/> 
+ get user from token<br/>
+ load user associated with token<br/> 
+ set spring security<br/> 
+ 5.create JwtAuthResponse
+ 6.configure JWT in spring security config
+ 7.create login api to return token
+ 8.test the application
+  
  
  
  
