@@ -119,7 +119,26 @@ Some of the most common validation annotations are:<br/>
 **@Pattern**: to say that a string field is only valid when it matches a certain regular expression.<br/>
 **@Email:** to say that a string field must be a valid email address.<br/>
 
- basuc validation for  the category class in  the repository specified in the design.
+ basic validation for  the category class in  the repository specified in the design.<br/>
+ 
+ JWT Authentication:<br/>
+ 
+ 1.JWT stands for Json Web Token.<br/>
+ 2.JWT is mostly used for securing Rest API's.<br/>
+ 3.Best way to communicate security between client and server securely.<br/>
+ 4.JWT follows a stateless authentication mechanism.(with out stroing and data on the server)<br/> 
+ 
+ 
+ JWT architecture:
+ 1. header (Algo+ Type)<br/> 
+ 2.payload( Information about claims)(data)<br/> 
+ 3.Signature(encoded header + encoded payload + key)<br/> 
+ 
+ 
+ 
+ 
+ 
+ 
      
 
 
